@@ -1,4 +1,4 @@
-# marketplaceOptimization
+# Chewse Marketplace Optimization
 
         Chewse was a startup that managed the corporate catering experience for their customers.
         This program was designed to reduce the Costs of Goods Sold (COGS) for Chewse by reducing
