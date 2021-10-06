@@ -21,3 +21,5 @@
         several pivot tables and charts to visualize several performance metrics. This human-machine interaction
         allowed for Chewse to either override some decisions or select custom assignments for customer
         orders that were not feasible under the constraints (the program would suggest several options in this circumstance)
+
+# See a visual depiction of the "Order Engine" product below[Order Engine Instructions.pdf](https://github.com/nicholaslwright/marketplaceOptimization/files/7290533/Order.Engine.Instructions.pdf)
