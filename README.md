@@ -1,11 +1,11 @@
-## Chewse Marketplace Optimization
+# Chewse Marketplace Optimization
 
-# For a visual description of the "Order Engine" Product, see below
+## For a visual description of the "Order Engine" Product, see below
 
 [Order Engine Instructions.pdf](https://github.com/nicholaslwright/marketplaceOptimization/files/7290533/Order.Engine.Instructions.pdf)
 
 
-# Business Context
+## Business Context
 
 Chewse was a startup that managed the corporate catering experience for their customers.
 This program was designed to reduce the Costs of Goods Sold (COGS) for Chewse by reducing
@@ -16,13 +16,13 @@ several levels of pricing, depending on volume (ie $11 per meal for <300 meals, 
 Optimal pricing was also subject to complext constraints such as ensuring corporate clients
 received a sufficient variety of cuisines, as well as a myriad of other customer preferences.
 
-# Backend Optimization Development
+## Backend Optimization Development
 
 The non-linear optimization was originally solved by a special type of piecewise-linear approximation
 called Specialed Ordered Set - Type 2, or SOS2. It used a very useful Google Operations Research library
 which wrapped C++ functions into python using SWIG.
 
-# Front-End Interface through Google Sheets
+## Front-End Interface through Google Sheets
 
 The users of this code could interact with it through a Spreadsheet menu button enabled by Google Apps Script
 The script would call this python code through an http request to the AWS server, which initiated the optimization
